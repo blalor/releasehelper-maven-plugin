@@ -1,0 +1,148 @@
+{
+    "com.myco.supportutilities:user-event-consumer": {
+        "groupId": "com.myco.supportutilities",
+        "artifactId": "user-event-consumer",
+        "parent": {
+            "groupId": "com.myco",
+            "artifactId": "webservices",
+            "version": "12.12.19-SNAPSHOT",
+            "snapshot": true
+        },
+        "snapshotProperties": {
+            "contracts-version": "12.12.19-SNAPSHOT",
+            "properties-version": "12.12.19.1-SNAPSHOT"
+        },
+        "snapshotDependencies": [
+            {
+                "groupId": "com.myco",
+                "artifactId": "chacha-contracts",
+                "version": "12.12.19-SNAPSHOT"
+            },
+            {
+                "groupId": "com.myco.webservices",
+                "artifactId": "sms-credentials",
+                "version": "12.12.19-SNAPSHOT"
+            },
+            {
+                "groupId": "com.myco.commons",
+                "artifactId": "user",
+                "version": "12.7.13.1-SNAPSHOT"
+            },
+            {
+                "groupId": "com.myco.webservices",
+                "artifactId": "sms-userprofile",
+                "version": "0.0.1-SNAPSHOT"
+            },
+            {
+                "groupId": "com.myco.supportutilities",
+                "artifactId": "prospero-user-event-writer",
+                "version": "12.12.4-SNAPSHOT"
+            }
+        ]
+    },
+    "com.myco:webservices": {
+        "groupId": "com.myco",
+        "artifactId": "webservices",
+        "parent": {
+            "groupId": "com.myco",
+            "artifactId": "chacha",
+            "version": "12.12.18.1",
+            "snapshot": false
+        },
+        "snapshotProperties": {
+            "contracts-version": "12.12.19-SNAPSHOT",
+            "properties-version": "12.12.19.1-SNAPSHOT"
+        },
+        "snapshotDependencies": []
+    },
+    "com.myco:chacha-contracts": {
+        "groupId": "com.myco",
+        "artifactId": "chacha-contracts",
+        "parent": {
+            "groupId": "com.myco",
+            "artifactId": "chacha",
+            "version": "12.12.18.1",
+            "snapshot": false
+        },
+        "snapshotProperties": {},
+        "snapshotDependencies": []
+    },
+    "com.myco.webservices:sms-credentials": {
+        "groupId": "com.myco.webservices",
+        "artifactId": "sms-credentials",
+        "parent": {
+            "groupId": "com.myco",
+            "artifactId": "webservices",
+            "version": "12.12.18.1",
+            "snapshot": false
+        },
+        "snapshotProperties": {},
+        "snapshotDependencies": []
+    },
+    "com.myco.commons:user": {
+        "groupId": "com.myco.commons",
+        "artifactId": "user",
+        "parent": {
+            "groupId": "com.myco",
+            "artifactId": "commons",
+            "version": "12.7.13.1-SNAPSHOT",
+            "snapshot": true
+        },
+        "snapshotProperties": {},
+        "snapshotDependencies": [
+            {
+                "groupId": "com.myco.commons",
+                "artifactId": "service",
+                "version": "12.7.13.1-SNAPSHOT"
+            }
+        ]
+    },
+    "com.myco:commons": {
+        "groupId": "com.myco",
+        "artifactId": "commons",
+        "parent": {
+            "groupId": "com.myco",
+            "artifactId": "chacha",
+            "version": "12.6.2",
+            "snapshot": false
+        },
+        "snapshotProperties": {},
+        "snapshotDependencies": []
+    },
+    "com.myco.commons:service": {
+        "groupId": "com.myco.commons",
+        "artifactId": "service",
+        "parent": {
+            "groupId": "com.myco",
+            "artifactId": "commons",
+            "version": "12.7.13.1-SNAPSHOT",
+            "snapshot": true
+        },
+        "snapshotProperties": {},
+        "snapshotDependencies": []
+    },
+    "com.myco.webservices:sms-userprofile": {
+        "groupId": "com.myco.webservices",
+        "artifactId": "sms-userprofile",
+        "parent": {
+            "groupId": "com.myco",
+            "artifactId": "webservices",
+            "version": "12.12.18.1",
+            "snapshot": false
+        },
+        "snapshotProperties": {},
+        "snapshotDependencies": []
+    },
+    "com.myco.supportutilities:prospero-user-event-writer": {
+        "groupId": "com.myco.supportutilities",
+        "artifactId": "prospero-user-event-writer",
+        "parent": {
+            "groupId": "com.myco",
+            "artifactId": "chacha",
+            "version": "12.12.3.0",
+            "snapshot": false
+        },
+        "snapshotProperties": {},
+        "snapshotDependencies": []
+    }
+}
