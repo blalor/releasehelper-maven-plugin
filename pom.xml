@@ -13,7 +13,14 @@
     <packaging>maven-plugin</packaging>
 
     <name>Release Helper Plugin</name>
-    <description>TBD</description>
+    <description>
+        Maven plugins for helping with a convoluted release process
+    </description>
+
+    <scm>
+        <developerConnection>scm:git:https://github.com/blalor/releasehelper-maven-plugin.git</developerConnection>
+        <url>https://github.com/blalor/releasehelper-maven-plugin</url>
+    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -42,5 +49,4 @@
             <version>2.0.6</version>
         </dependency>
     </dependencies>
-
 </project>
