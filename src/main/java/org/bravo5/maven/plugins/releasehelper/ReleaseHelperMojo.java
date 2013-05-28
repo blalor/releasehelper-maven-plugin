@@ -6,9 +6,6 @@ package org.bravo5.maven.plugins.releasehelper;
 import org.apache.maven.artifact.Artifact;
 import org.apache.maven.artifact.factory.ArtifactFactory;
 import org.apache.maven.artifact.repository.ArtifactRepository;
-import org.apache.maven.artifact.resolver.ArtifactNotFoundException;
-import org.apache.maven.artifact.resolver.ArtifactResolutionException;
-import org.apache.maven.artifact.resolver.filter.ScopeArtifactFilter;
 
 // http://maven.apache.org/ref/2.0.9/maven-plugin-api/apidocs/index.html
 import org.apache.maven.plugin.AbstractMojo;
